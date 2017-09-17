@@ -242,10 +242,10 @@
     background: url('../images/eye_animate.png') no-repeat;
     background-size: 2.06rem .27rem;
     -webkit-background-size: 2.06rem .27rem;
-    animation: yugan 2s steps(2) infinite both;
+    animation: part1eye 2s steps(2) infinite both;
 }
 
-@-webkit-keyframes yugan {
+@-webkit-keyframes part1eye {
     0% {
         background-position: 0 0;
     }
@@ -263,10 +263,10 @@
     background: url('../images/mouth_animate.png') no-repeat;
     background-size: 1.28rem .18rem;
     -webkit-background-size: 1.28rem .18rem;
-    animation: mouth 5s steps(2) infinite both;
+    animation: part1mouth 5s steps(2) infinite both;
 }
 
-@-webkit-keyframes mouth {
+@-webkit-keyframes part1mouth {
     0% {
         background-position: 0 0;
     }
@@ -284,10 +284,10 @@
     background: url('../images/hand_animate.png') no-repeat;
     background-size: 6.68rem .57rem;
     -webkit-background-size: 6.68rem .57rem;
-    animation: hand 2s steps(2) infinite both;
+    animation: part1hand 2s steps(2) infinite both;
 }
 
-@-webkit-keyframes hand {
+@-webkit-keyframes part1hand {
     0% {
         background-position: 0 0;
     }
@@ -892,7 +892,7 @@
 .part3 .hand{
     position: absolute;
     top: 57%;
-    left: 13.5%;
+    left: 11.5%;
     width: 5.94rem;
     height: .95rem;
     background: url('../images/hand_animate_big.png') no-repeat;

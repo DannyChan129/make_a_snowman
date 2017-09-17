@@ -2,9 +2,9 @@
 	hengshuping();
 }*/
 ;(function (desw) {
-    var winW = document.documentElement.clientWidth;
-    radio = winW / desw;
-    document.documentElement.style.fontSize = radio * 100 + 'px';
+    var winW =document.documentElement.clientWidth;
+    radio = winW/desw;
+    document.documentElement.style.fontSize = radio*100+'px';
 })(750);
 
 //屏幕方向监测
@@ -155,7 +155,7 @@ function part1() {
                 setTimeout(function () {
                     $("#audio1").attr("src", "audio/snowballflow.mp3");
                     audio1.play();
-                },3000);
+                },2500);
                 $('.snowballleft').addClass('rollsnowballleft');
                 $('.snowballleft').animate({"left":"38%","top":"80%","width":"11%","height":"11%"},3000);
                 setTimeout(function () {
@@ -175,7 +175,7 @@ function part1() {
                             setTimeout(function () {
                                 $("#audio1").attr("src", "audio/snowballflow.mp3");
                                 audio1.play();
-                            },3000);
+                            },2500);
                             $('.snowballright').addClass('rollsnowballright');
                             $('.snowballright').animate({"right":"37%","top":"80%","width":"14%","height":"14%"},3000);
                             setTimeout(function () {
@@ -463,7 +463,7 @@ function wan() {
                 $('.part2').hide();
                 part3();
             })
-        },2000);
+        },5000);
     }
 }
 
