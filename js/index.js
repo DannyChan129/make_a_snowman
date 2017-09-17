@@ -63,6 +63,7 @@ function audioPlay() {
 }
 
 window.onload = function () {
+    home();
     audio4Play();
 }
 document.addEventListener("WeixinJSBridgeReady", function () {
@@ -344,7 +345,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },4300);
         $('.part2 .hat').show();
         wan();
@@ -362,7 +363,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .hand').show();
         wan();
@@ -380,7 +381,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .mouth').show();
         wan();
@@ -398,7 +399,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .nose').show();
         wan();
@@ -416,7 +417,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },3000);
         $('.part2 .eye').show();
         wan();
@@ -434,7 +435,7 @@ function part2() {
         $('.pic').css("animation-play-state","paused");
         clearInterval(window.snowtimer);
         setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,4000);
+            window.snowtimer = setInterval(makesnow,5000);
         },3000);
         $('.part2 .scarf').show();
         wan();
@@ -649,6 +650,7 @@ var the_images = [
     "audio/S5tie a scarf around his neck.mp3",
     "audio/S6put a hat on his head.mp3",
     "audio/snowballflow.mp3"
+
 ];
 jQuery.imgpreload(the_images, {
     each: function () {
