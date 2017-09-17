@@ -440,6 +440,31 @@ function part2() {
         $('.part2 .scarf').show();
         wan();
     }
+    $(".part2 .text1").bind('click',function () {
+        $("#audio1").attr("src", "audio/S6put a hat on his head.mp3");
+        audio1.play();
+    })
+    $(".part2 .text2").bind('click',function () {
+        $("#audio1").attr("src", "audio/S4Two tree branches for his arms.mp3");
+        audio1.play();
+    })
+    $(".part2 .text3").bind('click',function () {
+        $("#audio1").attr("src", "audio/S3an orange rind for his mouth.mp3");
+        audio1.play();
+    })
+    $(".part2 .text4").bind('click',function () {
+        $("#audio1").attr("src", "audio/S2Use a carrot as his nose.mp3");
+        audio1.play();
+    })
+    $(".part2 .text5").bind('click',function () {
+        $("#audio1").attr("src", "audio/S1Use the stones as his eyes.mp3");
+        audio1.play();
+    })
+    $(".part2 .text6").bind('click',function () {
+        $("#audio1").attr("src", "audio/S5tie a scarf around his neck.mp3");
+        audio1.play();
+    })
+
 }
 
 function wan() {
@@ -510,6 +535,31 @@ function part3() {
         $("#audio1").attr("src", "audio/S4Two tree branches for his arms.mp3");
         audio1.play();
     })
+    $('.part3 .dialogue2').bind('click',function () {
+        $("#audio1").attr("src", "audio/S4Two tree branches for his arms.mp3");
+        audio1.play();
+    })
+    $('.part3 .dialogue1').bind('click',function () {
+        $("#audio1").attr("src", "audio/S2Use a carrot as his nose.mp3");
+        audio1.play();
+    })
+    $('.part3 .dialogue3').bind('click',function () {
+        $("#audio1").attr("src", "audio/S6put a hat on his head.mp3");
+        audio1.play();
+    })
+    $('.part3 .dialogue4').bind('click',function () {
+        $("#audio1").attr("src", "audio/S5tie a scarf around his neck.mp3");
+        audio1.play();
+    })
+    $('.part3 .dialogue5').bind('click',function () {
+        $("#audio1").attr("src", "audio/S1Use the stones as his eyes.mp3");
+        audio1.play();
+    })
+    $('.part3 .dialogue6').bind('click',function () {
+        $("#audio1").attr("src", "audio/S3an orange rind for his mouth.mp3");
+        audio1.play();
+    })
+
    $('.part3 .next3').bind('click',function () {
        $('.part3').hide();
        end();

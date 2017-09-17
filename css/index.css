@@ -233,7 +233,7 @@
     z-index: 9999;
 }
 
-.eye {
+ .eye {
     position: absolute;
     top: 58%;
     left: 45.5%;
@@ -275,7 +275,7 @@
     }
 }
 
-.hand {
+ .hand {
     position: absolute;
     top: 64%;
     left: 28.5%;
@@ -309,7 +309,7 @@
     transition-duration: 5s;
 }
 
-.movewuqi {
+.start .movewuqi {
     width: 60.67%;
     height: 80.96%;
     position: absolute;
