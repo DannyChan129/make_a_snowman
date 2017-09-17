@@ -130,7 +130,7 @@ $(".rule p").bind("click", function () {
     $(".rule").hide();
     $(".part1").show();
     audio4Play();
-    part1();
+    part3();
 });
 
 
