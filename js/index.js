@@ -281,6 +281,7 @@ function movesnowball() {
 
 /*part2*/
 function part2() {
+    console.log(2);
     $('.part2').show();
         // snowFlow();
         function snowFlow(left,height,src){
@@ -307,7 +308,10 @@ function part2() {
             'images/stones_snow.png',
             'images/orange_snow.png']
         // var num = [[0,1,2,3,4],[4,3,2,1,0],[1,3,4,2,0],[2,4,1,0,3],[3,4,1,0,2]];
-        window.snowtimer = setInterval(makesnow,4000);
+        setTimeout(function () {
+            console.log(1);
+            window.snowtimer = setInterval(makesnow,4000);
+        },1000);
         var n = 0;
         function makesnow() {
         var index = Math.floor(Math.random()*6);
@@ -347,10 +351,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text1').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },4300);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },4300);
         $('.part2 .hat').show();
         $(this).hide();
         wan();
@@ -366,10 +370,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text2').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },4000);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },4000);
         $('.part2 .hand').show();
         $(this).hide();
         wan();
@@ -385,10 +389,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text3').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },4000);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },4000);
         $('.part2 .mouth').show();
         $(this).hide();
         wan();
@@ -404,10 +408,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text4').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },4000);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },4000);
         $('.part2 .nose').show();
         $(this).hide();
         wan();
@@ -423,10 +427,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text5').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },3000);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },3000);
         $('.part2 .eye').show();
         $(this).hide();
         wan();
@@ -442,10 +446,10 @@ function part2() {
         $('.text2').fadeOut();
         $('.text6').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(window.snowtimer);
-        setTimeout(function () {
-            window.snowtimer = setInterval(makesnow,5000);
-        },3000);
+        // clearInterval(window.snowtimer);
+        // setTimeout(function () {
+        //     window.snowtimer = setInterval(makesnow,5000);
+        // },3000);
         $('.part2 .scarf').show();
         $(this).hide();
         wan();

@@ -229,7 +229,7 @@
     position: absolute;
     top: 86%;
     left: 33.5%;
-    display: none;
+    /*display: none;*/
     z-index: 9999;
 }
 
