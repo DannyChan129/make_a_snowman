@@ -297,7 +297,7 @@ function part2() {
             pic.src=src;
             setTimeout(function(){
                 snowFlow.removeChild(container);
-            },10000);
+            },4000);
         }
         var images = [
             'images/snow_scraf.png',
@@ -343,10 +343,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text1').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
-        },3000);
+        },4300);
         $('.part2 .hat').show();
         wan();
     }
@@ -361,10 +361,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text2').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
-        },3000);
+        },4000);
         $('.part2 .hand').show();
         wan();
     }
@@ -379,10 +379,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text3').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
-        },3000);
+        },4000);
         $('.part2 .mouth').show();
         wan();
     }
@@ -397,10 +397,10 @@ function part2() {
         $('.text6').fadeOut();
         $('.text4').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
-        },3000);
+        },4000);
         $('.part2 .nose').show();
         wan();
     }
@@ -415,7 +415,7 @@ function part2() {
         $('.text6').fadeOut();
         $('.text5').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
         },3000);
@@ -433,7 +433,7 @@ function part2() {
         $('.text2').fadeOut();
         $('.text6').addClass('cloudcome').show();
         $('.pic').css("animation-play-state","paused");
-        clearInterval(snowtimer);
+        clearInterval(window.snowtimer);
         setTimeout(function () {
             window.snowtimer = setInterval(makesnow,4000);
         },3000);
