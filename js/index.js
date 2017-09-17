@@ -63,7 +63,7 @@ function audioPlay() {
 }
 
 window.onload = function () {
-  
+
     audio4Play();
 }
 document.addEventListener("WeixinJSBridgeReady", function () {
@@ -130,7 +130,7 @@ $(".rule p").bind("click", function () {
     $(".rule").hide();
     $(".part1").show();
     audio4Play();
-    part2();
+    part1();
 });
 
 
