@@ -63,7 +63,7 @@ function audioPlay() {
 }
 
 window.onload = function () {
-    home();
+  
     audio4Play();
 }
 document.addEventListener("WeixinJSBridgeReady", function () {
@@ -130,7 +130,7 @@ $(".rule p").bind("click", function () {
     $(".rule").hide();
     $(".part1").show();
     audio4Play();
-    part1();
+    part2();
 });
 
 
@@ -308,13 +308,17 @@ function part2() {
             'images/orange_snow.png']
         // var num = [[0,1,2,3,4],[4,3,2,1,0],[1,3,4,2,0],[2,4,1,0,3],[3,4,1,0,2]];
         window.snowtimer = setInterval(makesnow,4000);
+        var n = 0;
         function makesnow() {
         var index = Math.floor(Math.random()*6);
         var left=Math.random()*document.documentElement.clientWidth-40;
         var height=Math.random()*window.innerHeight;
         //  var imageindex = num[index];
-
-        var src1 = images[index];
+            if(n>5){
+                n =0;
+            }
+        var src1 = images[n];
+        n++;
         snowFlow(left,height,src1);
         $('.pic').bind('click',function () {
             if(this.src.indexOf('hat')>0){
