@@ -297,7 +297,7 @@ function part2() {
             pic.src=src;
             setTimeout(function(){
                 snowFlow.removeChild(container);
-            },4000);
+            },6000);
         }
         var images = [
             'images/snow_scraf.png',
