@@ -130,7 +130,7 @@ $(".rule p").bind("click", function () {
     $(".rule").hide();
     $(".part1").show();
     audio4Play();
-    part1();
+    part3();
 });
 
 
@@ -298,7 +298,7 @@ function part2() {
             pic.src=src;
             setTimeout(function(){
                 snowFlow.removeChild(container);
-            },6000);
+            },5500);
         }
         var images = [
             'images/snow_scraf.png',
@@ -309,7 +309,6 @@ function part2() {
             'images/orange_snow.png']
         // var num = [[0,1,2,3,4],[4,3,2,1,0],[1,3,4,2,0],[2,4,1,0,3],[3,4,1,0,2]];
         setTimeout(function () {
-            console.log(1);
             window.snowtimer = setInterval(makesnow,4000);
         },1000);
         var n = 0;
