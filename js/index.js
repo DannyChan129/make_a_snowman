@@ -348,6 +348,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },4300);
         $('.part2 .hat').show();
+        $(this).hide();
         wan();
     }
     function branches() {
@@ -366,6 +367,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .hand').show();
+        $(this).hide();
         wan();
     }
     function orange() {
@@ -384,6 +386,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .mouth').show();
+        $(this).hide();
         wan();
     }
     function carrot() {
@@ -402,6 +405,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },4000);
         $('.part2 .nose').show();
+        $(this).hide();
         wan();
     }
     function stones() {
@@ -420,6 +424,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },3000);
         $('.part2 .eye').show();
+        $(this).hide();
         wan();
     }
     function scarf() {
@@ -438,6 +443,7 @@ function part2() {
             window.snowtimer = setInterval(makesnow,5000);
         },3000);
         $('.part2 .scarf').show();
+        $(this).hide();
         wan();
     }
     $(".part2 .text1").bind('click',function () {
