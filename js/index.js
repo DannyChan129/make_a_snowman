@@ -63,7 +63,6 @@ function audioPlay() {
 }
 
 window.onload = function () {
-    home();
     audio4Play();
 }
 document.addEventListener("WeixinJSBridgeReady", function () {
@@ -313,7 +312,7 @@ function part2() {
         var left=Math.random()*document.documentElement.clientWidth-40;
         var height=Math.random()*window.innerHeight;
         //  var imageindex = num[index];
-        console.log(index);
+
         var src1 = images[index];
         snowFlow(left,height,src1);
         $('.pic').bind('click',function () {
@@ -582,34 +581,74 @@ $(".playangin").click(function () {
 //预加载
 var num = 0;
 var the_images = [
-    "images/again.png",
-    "images/bgImg.jpg",
-    "images/bgxing.png",
-    "images/btn_go.png",
-    "images/end_bg.png",
-    "images/end_img.png",
-    "images/fail.png",
-    "images/hint_hand.png",
-    "images/homePage.jpg",
-    "images/how.png",
-    "images/loading.gif",
-    "images/meow.png",
-    "images/oink.png",
-    "images/quack.png",
-    "images/rule.jpg",
-    "images/sm_cat.png",
-    "images/sm_duck.png",
-    "images/sm_pig.png",
-    "images/sm_wolf.png",
+    "images/arrow.png",
+    "images/hand_animate_big.png",
+    "images/orange_text2.png",
+    "images/snowman.png",
+    "images/brabches_text.png",
+    "images/hat_animate.png",
+    "images/page1.jpg",
+    "images/star1.png",
+    "images/brabches_text2.png",
+    "images/hat_animate_big.png",
+    "images/page1_text1.png",
     "images/starbut.png",
+    "images/branches_snow.png",
+    "images/hat_snow.png",
+    "images/page2.jpg",
+    "images/stones_snow.png",
+    "images/btn_go.png",
+    "images/hat_text.png",
+    "images/playagain.png",
+    "images/stones_text.png",
+    "images/carrot_text.png",
+    "images/hat_text2.png",
+    "images/rule.jpg",
+    "images/stones_text2.png",
+    "images/carrot_text2.png",
+    "images/hint_hand.png",
+    "images/scarf_text.png",
+    "images/tescttvt.png",
+    "images/dropstar1.png",
+    "images/homePage.jpg",
+    "images/scarf_text2.png",
     "images/title.png",
-    "images/cryxing.png",
-    "images/playagain1.png",
-    "audio/cheer.mp3",
-    "audio/howlhowl.mp3",
-    "audio/meowmeow.mp3",
-    "audio/oinkoink.mp3",
-    "audio/quackquack.mp3",
+    "images/dropstar2.png",
+    "images/loading.gif",
+    "images/scraf.png",
+    "images/title_snow.png",
+    "images/end_img.png",
+    "images/mouth_animate.png",
+    "images/smile.png",
+    "images/wuqi-bg2.png",
+    "images/eye_animate.png",
+    "images/mouth_animate_big.png",
+    "images/snow_carrot.png",
+    "images/wuqi-bg3.png",
+    "images/eye_animate_big.png",
+    "images/next0.png",
+    "images/snow_scraf.png",
+    "images/xueqiu_big.png",
+    "images/facered.png",
+    "images/nose.png",
+    "images/snow-bg.png",
+    "images/xueqiu_small.png",
+    "images/flowers.png",
+    "images/orange_snow.png",
+    "images/snow-bg2.png",
+    "images/hand_animate.png",
+    "images/orange_text.png",
+    "images/snow-bg3.png",
+    "audio/bgm.mp3",
+    "audio/caboli.mp3",
+    "audio/S0pile of snow, pile of snow, Big and small, body and head.mp3",
+    "audio/S1Use the stones as his eyes.mp3",
+    "audio/S2Use a carrot as his nose.mp3",
+    "audio/S3an orange rind for his mouth.mp3",
+    "audio/S4Two tree branches for his arms.mp3",
+    "audio/S5tie a scarf around his neck.mp3",
+    "audio/S6put a hat on his head.mp3",
+    "audio/snowballflow.mp3"
 ];
 jQuery.imgpreload(the_images, {
     each: function () {
